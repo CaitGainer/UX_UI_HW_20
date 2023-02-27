@@ -7,21 +7,140 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
+  <!--Used BS nav component-->
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Case Study 1 </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Case Study 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Case Study 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Me</a>
         </li>
       </ul>
+      <!--Used BS jumbotron component-->
+      <div class="jumbotron">
+        <h1 class="display-4">Forager App Case Study</h1>
+        <p class="lead">Forager is a travel app that helps individuals easily search restaurant recommendations, reviews and video visuals; it allows them to create an itinerary and share their experience visually.</p>
+        <hr class="my-4">
+        <p>My Role : Research , Wireframe,User Persona & UX/UI Design</p>
+        
+      </div>
+        <!-- Used Card Component-->
+        
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Interview Transcripts  </h5>
+            <p class="card-text">12 Questions that I've made to conduct Research</p>
+            <a href="https://drive.google.com/drive/folders/1-XC8M1gCCn7peM1KExwf-Jnw6wCI0Ruw" class="btn btn-primary">See More</a>
+          </div>
+        </div>
 
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Affinity Diagram Process </h5>
+            <p class="card-text">Affinity Diagram for Forager App</p>
+            <a href="https://drive.google.com/drive/folders/1-XC8M1gCCn7peM1KExwf-Jnw6wCI0Ruw" class="btn btn-primary">See More</a>
+          </div>
+        </div>
+        
+        <!-- Used Collapse components-->
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+How do you feel?                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+              Likes to go to popular spots
+likes to supports small businesses
+would pay more for better quality food
+likes to try different culture foods
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What do you like to see?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                needs a place to take pictures
+                flexible outline, descriptive
+                likes to share finds with others
+                doesn't like to only visit tourist spots.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+Pain Points                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                fear of getting lost
+not enough variety
+wants to make a quick decision
+doesn't like long wait times
+wants accurate information
+doesn't like bad service
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Used BS jumbotron component-->
+      <div class="jumbotron">
+        <h1 class="display-4"> Problem Statement </h1>
+        <p class="lead">Develop an app that would make it easier to view what a restaurant has to offer, reviews and video visuals depending on your travel destination.</p>
+        <hr class="my-4">
+
+        <!-- Used BS media oblect component-->
+        <h1>Prototype</h1>
+        <ul class="list-unstyled">
+          <li class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Splash Screen</h5>
+              This is the splash screen along with three others along with this one that tells you all the features of the app.
+            </div>
+          </li>
+          <li class="media my-4">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Profile Details</h5>
+              This is the screen to pick your profile so that you can pick what type of profile you would like.  This would be similar to having a blog, business page or UGC page.
+            </div>
+          </li>
+          <li class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Create an Account </h5>
+              This is the screen to pick your profile so that you can pick what type of profile you would like.  This would be similar to having a blog, business page or UGC page.
+            </div>
+          </li>
+        </ul>
+        
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
